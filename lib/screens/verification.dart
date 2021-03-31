@@ -59,11 +59,12 @@ class Verification extends StatelessWidget {
                 style: GoogleFonts.nunito(
                   fontWeight: FontWeight.bold,
                   color: Colors.black54,
-                  fontSize: 17,
+                  fontSize: 16,
                 ),
               ),
             ),
             Container(
+              width: double.infinity,
               margin: EdgeInsets.only(top: 30),
               child: RaisedButton(
                 onPressed: () {},
