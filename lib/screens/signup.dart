@@ -31,26 +31,40 @@ class SignUp extends StatelessWidget {
         ),
       ),
       body: ListView(
-        padding: EdgeInsets.all(30),
+        padding: EdgeInsets.only(top: 20, left: 30, right: 30),
         children: [
-          Text(
-            'Hello,',
-            style: GoogleFonts.nunito(
-              fontWeight: FontWeight.w800,
-              color: Colors.black,
-              fontSize: 28,
-            ),
-          ),
-          Text(
-            'Signup to start working',
-            style: GoogleFonts.nunito(
-              fontWeight: FontWeight.bold,
-              color: Colors.grey,
-              fontSize: 22,
-            ),
+          Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            children: [
+              Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text(
+                    'Hello,',
+                    style: GoogleFonts.nunito(
+                      fontWeight: FontWeight.w800,
+                      color: Colors.black,
+                      fontSize: 28,
+                    ),
+                  ),
+                  Text(
+                    'Signup to start working',
+                    style: GoogleFonts.nunito(
+                      fontWeight: FontWeight.bold,
+                      color: Colors.grey,
+                      fontSize: 22,
+                    ),
+                  ),
+                ],
+              ),
+              Image(
+                image: AssetImage("assets/Asset2.png"),
+                height: 100,
+              ),
+            ],
           ),
           Container(
-            margin: EdgeInsets.only(top: 40),
+            margin: EdgeInsets.only(top: 10),
             child: Text(
               'Username:',
               style: GoogleFonts.nunito(

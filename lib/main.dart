@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:track_buddy/screens/login.dart';
+
+import 'package:track_buddy/screens/signup.dart';
 
 void main() {
   runApp(MyApp());
@@ -12,7 +13,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       debugShowCheckedModeBanner: false,
-      home: Login(),
+      home: SignUp(),
     );
   }
 }
