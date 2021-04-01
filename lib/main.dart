@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:track_buddy/screens/verification.dart';
+import 'package:track_buddy/screens/homeScreen.dart';
 
 void main() {
   runApp(MyApp());
@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       debugShowCheckedModeBanner: false,
-      home: Verification(),
+      home: HomeScreen(),
     );
   }
 }
