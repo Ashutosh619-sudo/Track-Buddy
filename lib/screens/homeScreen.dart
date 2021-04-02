@@ -81,8 +81,7 @@ class HomeScreen extends StatelessWidget {
                     child: ListTile(
                       tileColor: Colors.white,
                       leading: CircleAvatar(
-                        backgroundImage:
-                            AssetImage("assets/AdobeStock_235869475.jpeg"),
+                        backgroundImage: AssetImage("assets/Asset1.png"),
                       ),
                       title: Text(
                         "Abhishek Singh",
@@ -114,8 +113,7 @@ class HomeScreen extends StatelessWidget {
                     child: ListTile(
                       tileColor: Colors.white,
                       leading: CircleAvatar(
-                        backgroundImage:
-                            AssetImage("assets/AdobeStock_235869475.jpeg"),
+                        backgroundImage: AssetImage("assets/Asset1.png"),
                       ),
                       title: Text(
                         "Ashutosh Singh",
