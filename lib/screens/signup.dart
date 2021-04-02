@@ -204,6 +204,29 @@ class SignUp extends StatelessWidget {
               ),
             ),
           ),
+          Container(
+            margin: EdgeInsets.only(top: 20),
+            child: RichText(
+              text: TextSpan(
+                text: ' Already have an account? \b',
+                style: GoogleFonts.nunito(
+                  fontWeight: FontWeight.bold,
+                  color: Colors.black87,
+                  fontSize: 15,
+                ),
+                children: [
+                  TextSpan(
+                    text: "Login",
+                    style: GoogleFonts.nunito(
+                      fontWeight: FontWeight.w800,
+                      color: Color.fromRGBO(1, 118, 255, 1),
+                      fontSize: 17,
+                    ),
+                  ),
+                ],
+              ),
+            ),
+          ),
         ],
       ),
     );

@@ -35,7 +35,7 @@ class Login extends StatelessWidget {
         children: [
           Image(
             image: AssetImage("assets/Asset1.png"),
-            height: 250,
+            height: 240,
           ),
           Container(
             margin: EdgeInsets.only(top: 30),
@@ -123,6 +123,29 @@ class Login extends StatelessWidget {
                   color: Colors.white,
                   fontSize: 16,
                 ),
+              ),
+            ),
+          ),
+          Container(
+            margin: EdgeInsets.only(top: 20),
+            child: RichText(
+              text: TextSpan(
+                text: ' Don\'t have and account? \b',
+                style: GoogleFonts.nunito(
+                  fontWeight: FontWeight.bold,
+                  color: Colors.black87,
+                  fontSize: 15,
+                ),
+                children: [
+                  TextSpan(
+                    text: "Signup",
+                    style: GoogleFonts.nunito(
+                      fontWeight: FontWeight.w800,
+                      color: Color.fromRGBO(1, 118, 255, 1),
+                      fontSize: 17,
+                    ),
+                  ),
+                ],
               ),
             ),
           ),
