@@ -129,38 +129,6 @@ class SignUp extends StatelessWidget {
           Container(
             margin: EdgeInsets.only(top: 20),
             child: Text(
-              'Phone number:',
-              style: GoogleFonts.nunito(
-                fontWeight: FontWeight.w800,
-                color: Colors.black87,
-                fontSize: 16,
-              ),
-            ),
-          ),
-          Container(
-            margin: EdgeInsets.only(top: 10),
-            decoration: BoxDecoration(
-              border: Border.all(
-                color: Colors.grey[300],
-              ),
-              borderRadius: BorderRadius.circular(5),
-            ),
-            child: TextField(
-              textAlignVertical: TextAlignVertical.center,
-              keyboardType: TextInputType.phone,
-              decoration: InputDecoration(
-                border: InputBorder.none,
-                prefixIcon: Icon(
-                  Icons.call_rounded,
-                  color: Color.fromRGBO(1, 118, 255, 1),
-                  size: 16,
-                ),
-              ),
-            ),
-          ),
-          Container(
-            margin: EdgeInsets.only(top: 20),
-            child: Text(
               'Password:',
               style: GoogleFonts.nunito(
                 fontWeight: FontWeight.w800,
